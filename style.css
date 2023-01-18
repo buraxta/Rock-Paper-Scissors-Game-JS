@@ -1,14 +1,25 @@
+body{
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color:blanchedalmond;
+}
+
 .choiceBtn{
     line-height: 30px;
     width: 150px;
 }
+
 #gameDiv{
-    font-family: 'Brush Script MT', cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 3px solid;
     border-radius: 25px;
     padding: 10px;
     background-color: lightgray;
     text-align: center;
+    box-shadow: 20px 20px 20px red, -20px -20px 20px blue;
 }
 #playerText{
     color: blue;

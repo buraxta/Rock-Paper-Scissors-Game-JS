@@ -23,7 +23,7 @@ choiceBtn.forEach(button => button.addEventListener("click", () => {
             case 2:
                 computer = "PAPER";
                 break;
-            case 1:
+            case 3:
                 computer = "SCISSORS";
                 break;            
         }
